@@ -19,7 +19,7 @@ Icon view and Icon button for android; change icon color on runtime.
 ### Install
 
 &nbsp;
-#### Gradle 
+##### Gradle 
 
 ```
 dependencies {
@@ -28,7 +28,7 @@ dependencies {
 ```
 
 &nbsp;
-#### Maven
+##### or Maven
 
 ```
 <dependency>
@@ -40,7 +40,7 @@ dependencies {
 ```
 
 &nbsp;
-### Use
+## Use
 
 &nbsp;
 #### XML
