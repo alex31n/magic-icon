@@ -4,7 +4,7 @@ Icon view and Icon button for android; change icon color on runtime.
 
 &nbsp;
 ### Features!
-- Font Awesome Icon
+- Icon Font - Google Material Icons,  Font Awesome, ionicons
 - Drawable resource
 - Icon shape - rectangle, circle
 - Border - color and width
@@ -23,7 +23,7 @@ Icon view and Icon button for android; change icon color on runtime.
 
 ```
 dependencies {
-        compile 'com.ornach.magicicon:magic-icon:1.3'
+        compile 'com.ornach.magicicon:magic-icon:1.4'
 }
 ```
 
@@ -34,7 +34,7 @@ dependencies {
 <dependency>
     <groupId>com.ornach.magicicon</groupId>
     <artifactId>magic-icon</artifactId>
-    <version>1.3</version>
+    <version>1.4</version>
     <type>pom</type>
 </dependency>
 ```
@@ -55,7 +55,8 @@ Icon View with custom params
     android:layout_height="50dp"
     android:layout_marginRight="10dp"
     app:mi_backgroundColor="#3A559F"
-    app:mi_fontAwesome="&#xf09a;"
+    app:mi_fontText="&#xf09a;"
+    app:mi_typeface="font_awesome"
     app:mi_iconColor="#FFF"
     app:mi_radius="8dp"
     app:mi_shape="rectangle"/>
@@ -70,17 +71,21 @@ Icon Button with custom params
     app:mi_borderColor="#00897B"
     app:mi_borderWidth="4dp"
     app:mi_focusColor="#60E9DB"
-    app:mi_fontAwesome="&#xf061;"
+    app:mi_fontText="&#xf09a;"
+    app:mi_typeface="font_awesome"
     app:mi_iconColor="#00897B"
     app:mi_shape="oval"/>
 ```
 
 &nbsp;
-#### Font Awesome Icon
+## Fonts
+In this porject I have used third party fonts and they have separate licenses. So before use, please see their license.
 
-Cheatsheet http://fontawesome.io/cheatsheet/
+[Google Material icons](https://material.io/icons/) licensed under the [Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)
 
-Note: before use **font awesome** please see their license http://fontawesome.io/license/
+[Font Awesome](http://fontawesome.io/cheatsheet/) and open source license http://fontawesome.io/license/
+
+[ionicons](http://ionicons.com/cheatsheet.html) licensed under the [MIT License](https://github.com/ionic-team/ionicons/blob/master/LICENSE)
 
 
 &nbsp;
