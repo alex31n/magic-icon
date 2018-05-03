@@ -23,7 +23,7 @@ Icon view and Icon button for android; change icon color on runtime.
 
 ```
 dependencies {
-        compile 'com.ornach.magicicon:magic-icon:1.5'
+        compile 'com.ornach.magicicon:magic-icon:1.6'
 }
 ```
 
@@ -34,7 +34,7 @@ dependencies {
 <dependency>
     <groupId>com.ornach.magicicon</groupId>
     <artifactId>magic-icon</artifactId>
-    <version>1.5</version>
+    <version>1.6</version>
     <type>pom</type>
 </dependency>
 ```
