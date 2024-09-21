@@ -40,3 +40,17 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            // create a Maven publication called "release"
+            create<MavenPublication>("release"){
+                from(components["release"])
+                groupId = "com.github.alex31n"
+                artifactId = "magic-icon"
+                version = "1.0"
+            }
+        }
+    }
+}
